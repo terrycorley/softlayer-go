@@ -170,6 +170,36 @@ func (slpp *softLayer_Product_Package_Service) GetPackagesByType(packageType str
 	return nonOutletPackages, nil
 }
 
+// Retrieve the item categories associated with a package, including information detailing which
+// item categories are required as part of a SoftLayer product order.
+//
+// See https://sldn.softlayer.com/reference/services/SoftLayer_Product_Package/getConfiguration
+func (slpp *softLayer_Product_Package_Service) GetConfiguration(packageId int) ([]datatypes.SoftLayer_Product_Package_Order_Configuration, error) {
+	path := fmt.Sprintf("%s/%d/%s", slpp.GetName(), packageId, "getConfiguration.json")
+
+	responseBytes, errorCode, err := slpp.client.GetHttpClient().DoRawHttpRequest(path, "GET", new(bytes.Buffer))
+
+	if err != nil {
+		return []datatypes.SoftLayer_Product_Package_Order_Configuration{}, err
+	}
+
+	if common.IsHttpErrorCode(errorCode) {
+		errorMessage := fmt.Sprintf("softlayer-go: could not %s#getConfiguration, HTTP error code: '%d'", slpp.GetName(), errorCode)
+		return []datatypes.SoftLayer_Product_Package_Order_Configuration{}, errors.New(errorMessage)
+	}
+
+	var orderConfigs []datatypes.SoftLayer_Product_Package_Order_Configuration
+
+	err = json.Unmarshal(responseBytes, &orderConfigs)
+
+	if err != nil {
+		errorMessage := fmt.Sprintf("softlayer-go: failed to decode JSON response, error message '%s'", err.Error())
+		return []datatypes.SoftLayer_Product_Package_Order_Configuration{}, errors.New(errorMessage)
+	}
+
+	return orderConfigs, nil
+}
+
 //Private methods
 
 func (slpp *softLayer_Product_Package_Service) filterProducts(array []*datatypes.Softlayer_Product_Package, predicate func(*datatypes.Softlayer_Product_Package) bool) []datatypes.Softlayer_Product_Package {

@@ -174,6 +174,36 @@ func (slc *SoftLayerClient) GetSoftLayer_Dns_Domain_ResourceRecord_Service() (so
 	return slService.(softlayer.SoftLayer_Dns_Domain_ResourceRecord_Service), nil
 }
 
+func (slc *SoftLayerClient) GetSoftLayer_Location_Service() (softlayer.SoftLayer_Location_Service, error) {
+	slService, err := slc.GetService("SoftLayer_Location")
+
+	if err != nil {
+		return nil, err
+	}
+
+	return slService.(softlayer.SoftLayer_Location_Service), nil
+}
+
+func (slc *SoftLayerClient) GetSoftLayer_Product_Package_Server_Service() (softlayer.SoftLayer_Product_Package_Server_Service, error) {
+	slService, err := slc.GetService("SoftLayer_Product_Package_Server")
+
+	if err != nil {
+		return nil, err
+	}
+
+	return slService.(softlayer.SoftLayer_Product_Package_Server_Service), nil
+}
+
+func (slc *SoftLayerClient) GetSoftLayer_Location_Group_Regional_Service() (softlayer.SoftLayer_Location_Group_Regional_Service, error) {
+	slService, err := slc.GetService("SoftLayer_Location_Group_Regional")
+
+	if err != nil {
+		return nil, err
+	}
+
+	return slService.(softlayer.SoftLayer_Location_Group_Regional_Service), nil
+}
+
 func GetSLApiEndpoint() string {
 	sl_api_endpoint := os.Getenv("SL_API_ENDPOINT")
 	var included bool = false
@@ -209,4 +239,7 @@ func (slc *SoftLayerClient) initSoftLayerServices() {
 	slc.softLayerServices["SoftLayer_Hardware"] = services.NewSoftLayer_Hardware_Service(slc)
 	slc.softLayerServices["SoftLayer_Dns_Domain"] = services.NewSoftLayer_Dns_Domain_Service(slc)
 	slc.softLayerServices["SoftLayer_Dns_Domain_ResourceRecord"] = services.NewSoftLayer_Dns_Domain_ResourceRecord_Service(slc)
+	slc.softLayerServices["SoftLayer_Location"] = services.NewSoftLayer_Location_Service(slc)
+	slc.softLayerServices["SoftLayer_Product_Package_Server"] = services.NewSoftLayer_Product_Package_Server_Service(slc)
+	slc.softLayerServices["SoftLayer_Location_Group_Regional_Service"] = services.NewSoftLayer_Location_Group_Regional_Service(slc)
 }

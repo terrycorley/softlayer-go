@@ -1,0 +1,22 @@
+[
+    {
+        "description": "Bandwidth Zone 3",
+        "id": 423,
+        "locationGroupTypeId": 82,
+        "name": "Bandwidth Zone 3",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "PRICING"
+        }
+    },
+    {
+        "description": "Location Group 6",
+        "id": 545,
+        "locationGroupTypeId": 82,
+        "name": "Location Group 6",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "PRICING"
+        }
+    }
+]

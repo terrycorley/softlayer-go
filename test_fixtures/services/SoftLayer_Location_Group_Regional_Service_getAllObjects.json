@@ -1,0 +1,192 @@
+[
+    {
+        "description": "eu-deu-west-1",
+        "id": 342,
+        "locationGroupTypeId": 42,
+        "name": "eu-deu-west-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "na-can-east-1",
+        "id": 344,
+        "locationGroupTypeId": 42,
+        "name": "na-can-east-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "as-jpn-central-1",
+        "id": 302,
+        "locationGroupTypeId": 42,
+        "name": "as-jpn-central-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "eu-nor-east-1",
+        "id": 1063,
+        "locationGroupTypeId": 42,
+        "name": "eu-nor-east-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "sa-bra-south-1",
+        "id": 663,
+        "locationGroupTypeId": 42,
+        "name": "sa-bra-south-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "as-kor-west-1",
+        "id": 1025,
+        "locationGroupTypeId": 42,
+        "name": "as-kor-west-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "na-usa-west-2",
+        "id": 64,
+        "locationGroupTypeId": 42,
+        "name": "na-usa-west-2",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "eu-fra-north-1",
+        "id": 304,
+        "locationGroupTypeId": 42,
+        "name": "eu-fra-north-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "as-ind-south-1",
+        "id": 743,
+        "locationGroupTypeId": 42,
+        "name": "as-ind-south-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "eu-gbr-south-1",
+        "id": 142,
+        "locationGroupTypeId": 42,
+        "name": "eu-gbr-south-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "na-usa-east-1",
+        "id": 66,
+        "locationGroupTypeId": 42,
+        "name": "na-usa-east-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "na-usa-south-1",
+        "id": 463,
+        "locationGroupTypeId": 42,
+        "name": "na-usa-south-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "na-usa-central-1",
+        "id": 22,
+        "locationGroupTypeId": 42,
+        "name": "na-usa-central-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "as-sgp-central-1",
+        "id": 70,
+        "locationGroupTypeId": 42,
+        "name": "as-sgp-central-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "oc-aus-south-1",
+        "id": 348,
+        "locationGroupTypeId": 42,
+        "name": "oc-aus-south-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "eu-nld-central-1",
+        "id": 68,
+        "locationGroupTypeId": 42,
+        "name": "eu-nld-central-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "na-usa-west-1",
+        "id": 62,
+        "locationGroupTypeId": 42,
+        "name": "na-usa-west-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "na-mex-central-1",
+        "id": 346,
+        "locationGroupTypeId": 42,
+        "name": "na-mex-central-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    },
+    {
+        "description": "as-hkg-central-1",
+        "id": 102,
+        "locationGroupTypeId": 42,
+        "name": "as-hkg-central-1",
+        "securityLevelId": null,
+        "locationGroupType": {
+            "name": "REGIONAL"
+        }
+    }
+]

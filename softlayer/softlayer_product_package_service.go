@@ -13,4 +13,6 @@ type SoftLayer_Product_Package_Service interface {
 
 	GetPackagesByType(packageType string) ([]datatypes.Softlayer_Product_Package, error)
 	GetOnePackageByType(packageType string) (datatypes.Softlayer_Product_Package, error)
+
+	GetConfiguration(packageId int) ([]datatypes.SoftLayer_Product_Package_Order_Configuration, error)
 }

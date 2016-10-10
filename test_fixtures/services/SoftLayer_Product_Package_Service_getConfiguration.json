@@ -1,0 +1,481 @@
+[
+    {
+        "errorMessage": "A server option is required to order a server",
+        "id": 7837,
+        "isRequired": 1,
+        "itemCategoryId": 1,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 1
+    },
+    {
+        "id": 7843,
+        "isRequired": 0,
+        "itemCategoryId": 315,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 1
+    },
+    {
+        "id": 7839,
+        "isRequired": 0,
+        "itemCategoryId": 57,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 1
+    },
+    {
+        "id": 7841,
+        "isRequired": 0,
+        "itemCategoryId": 123,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 1
+    },
+    {
+        "errorMessage": "An Operation System option is required to order a server",
+        "id": 7845,
+        "isRequired": 1,
+        "itemCategoryId": 12,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 2
+    },
+    {
+        "errorMessage": "A RAM option is required to order a server",
+        "id": 7847,
+        "isRequired": 1,
+        "itemCategoryId": 3,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 3
+    },
+    {
+        "errorMessage": "A disk controller option is required to order a server",
+        "id": 7849,
+        "isRequired": 1,
+        "itemCategoryId": 11,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 4
+    },
+    {
+        "errorMessage": "A primary disk is required to order a server",
+        "id": 7851,
+        "isRequired": 1,
+        "itemCategoryId": 4,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 5
+    },
+    {
+        "id": 7853,
+        "isRequired": 0,
+        "itemCategoryId": 5,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 6
+    },
+    {
+        "id": 7855,
+        "isRequired": 0,
+        "itemCategoryId": 6,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 7
+    },
+    {
+        "id": 7857,
+        "isRequired": 0,
+        "itemCategoryId": 7,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 8
+    },
+    {
+        "id": 7859,
+        "isRequired": 0,
+        "itemCategoryId": 36,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 9
+    },
+    {
+        "id": 7861,
+        "isRequired": 0,
+        "itemCategoryId": 37,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 10
+    },
+    {
+        "id": 8141,
+        "isRequired": 0,
+        "itemCategoryId": 38,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 11
+    },
+    {
+        "id": 8143,
+        "isRequired": 0,
+        "itemCategoryId": 39,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 12
+    },
+    {
+        "id": 8145,
+        "isRequired": 0,
+        "itemCategoryId": 40,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 13
+    },
+    {
+        "id": 8147,
+        "isRequired": 0,
+        "itemCategoryId": 41,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 14
+    },
+    {
+        "id": 8149,
+        "isRequired": 0,
+        "itemCategoryId": 42,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 15
+    },
+    {
+        "id": 8151,
+        "isRequired": 0,
+        "itemCategoryId": 43,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 16
+    },
+    {
+        "id": 8153,
+        "isRequired": 0,
+        "itemCategoryId": 98,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 17
+    },
+    {
+        "id": 8155,
+        "isRequired": 0,
+        "itemCategoryId": 99,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 18
+    },
+    {
+        "id": 8157,
+        "isRequired": 0,
+        "itemCategoryId": 100,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 19
+    },
+    {
+        "id": 8159,
+        "isRequired": 0,
+        "itemCategoryId": 101,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 20
+    },
+    {
+        "id": 8161,
+        "isRequired": 0,
+        "itemCategoryId": 102,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 21
+    },
+    {
+        "id": 8163,
+        "isRequired": 0,
+        "itemCategoryId": 103,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 22
+    },
+    {
+        "id": 8165,
+        "isRequired": 0,
+        "itemCategoryId": 104,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 23
+    },
+    {
+        "id": 8167,
+        "isRequired": 0,
+        "itemCategoryId": 105,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 24
+    },
+    {
+        "id": 8169,
+        "isRequired": 0,
+        "itemCategoryId": 106,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 25
+    },
+    {
+        "id": 8171,
+        "isRequired": 0,
+        "itemCategoryId": 107,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 26
+    },
+    {
+        "id": 8173,
+        "isRequired": 0,
+        "itemCategoryId": 108,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 27
+    },
+    {
+        "id": 8175,
+        "isRequired": 0,
+        "itemCategoryId": 109,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 28
+    },
+    {
+        "errorMessage": "A bandwidth amount option is required to order a server",
+        "id": 7863,
+        "isRequired": 1,
+        "itemCategoryId": 10,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 29
+    },
+    {
+        "errorMessage": "A port speed option is required to order a server",
+        "id": 7865,
+        "isRequired": 1,
+        "itemCategoryId": 26,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 30
+    },
+    {
+        "errorMessage": "A remote management option is required to order a server",
+        "id": 7867,
+        "isRequired": 1,
+        "itemCategoryId": 46,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 31
+    },
+    {
+        "errorMessage": "A primary IP option is required to order a server",
+        "id": 7869,
+        "isRequired": 1,
+        "itemCategoryId": 13,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 32
+    },
+    {
+        "id": 7871,
+        "isRequired": 0,
+        "itemCategoryId": 14,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 33
+    },
+    {
+        "id": 7875,
+        "isRequired": 0,
+        "itemCategoryId": 69,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 34
+    },
+    {
+        "id": 7873,
+        "isRequired": 0,
+        "itemCategoryId": 325,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 34
+    },
+    {
+        "id": 7881,
+        "isRequired": 0,
+        "itemCategoryId": 52,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 39
+    },
+    {
+        "errorMessage": "A redundant power supply is required",
+        "id": 7883,
+        "isRequired": 1,
+        "itemCategoryId": 35,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 40
+    },
+    {
+        "id": 7885,
+        "isRequired": 0,
+        "itemCategoryId": 34,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 101
+    },
+    {
+        "id": 7887,
+        "isRequired": 0,
+        "itemCategoryId": 329,
+        "orderStepId": 1,
+        "packageId": 271,
+        "sort": 105
+    },
+    {
+        "id": 8239,
+        "isRequired": 0,
+        "itemCategoryId": 390,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 100
+    },
+    {
+        "id": 7889,
+        "isRequired": 0,
+        "itemCategoryId": 68,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 102
+    },
+    {
+        "id": 7891,
+        "isRequired": 0,
+        "itemCategoryId": 18,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 103
+    },
+    {
+        "id": 7893,
+        "isRequired": 0,
+        "itemCategoryId": 73,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 104
+    },
+    {
+        "id": 7895,
+        "isRequired": 0,
+        "itemCategoryId": 17,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 105
+    },
+    {
+        "id": 7897,
+        "isRequired": 0,
+        "itemCategoryId": 50,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 106
+    },
+    {
+        "id": 7899,
+        "isRequired": 0,
+        "itemCategoryId": 28,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 107
+    },
+    {
+        "id": 7901,
+        "isRequired": 0,
+        "itemCategoryId": 23,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 108
+    },
+    {
+        "errorMessage": "A monitoring option is required to order a server",
+        "id": 7903,
+        "isRequired": 1,
+        "itemCategoryId": 20,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 109
+    },
+    {
+        "errorMessage": "A notification option is required to order a server",
+        "id": 7905,
+        "isRequired": 1,
+        "itemCategoryId": 21,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 110
+    },
+    {
+        "id": 7907,
+        "isRequired": 0,
+        "itemCategoryId": 122,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 111
+    },
+    {
+        "errorMessage": "A response option is required to order a server",
+        "id": 7909,
+        "isRequired": 1,
+        "itemCategoryId": 22,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 112
+    },
+    {
+        "id": 7911,
+        "isRequired": 0,
+        "itemCategoryId": 29,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 113
+    },
+    {
+        "id": 7913,
+        "isRequired": 0,
+        "itemCategoryId": 30,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 114
+    },
+    {
+        "errorMessage": "A VPN management user must be created with a server order.",
+        "id": 7915,
+        "isRequired": 1,
+        "itemCategoryId": 31,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 115
+    },
+    {
+        "errorMessage": "A vulnerability assessment and management option is required with a server order",
+        "id": 7917,
+        "isRequired": 1,
+        "itemCategoryId": 32,
+        "orderStepId": 2,
+        "packageId": 271,
+        "sort": 116
+    }
+]

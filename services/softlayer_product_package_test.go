@@ -268,4 +268,39 @@ var _ = Describe("SoftLayer_Product_Package", func() {
 			})
 		})
 	})
+
+	Context("#GetConfiguration", func() {
+		BeforeEach(func() {
+			fakeClient.FakeHttpClient.DoRawHttpRequestResponse, err = testhelpers.ReadJsonTestFixtures("services", "SoftLayer_Product_Package_Service_getConfiguration.json")
+			Expect(err).ToNot(HaveOccurred())
+		})
+
+		It("returns array of datatypes.Softlayer_Product_Package_Order_Configuration objects", func() {
+			configObjects, err := productPackageService.GetConfiguration(271)
+			Expect(err).ToNot(HaveOccurred())
+			Expect(configObjects).ToNot(BeNil())
+		})
+
+		Context("when HTTP client returns error codes 40x or 50x", func() {
+			It("fails for error code 40x", func() {
+				errorCodes := []int{400, 401, 499}
+				for _, errorCode := range errorCodes {
+					fakeClient.FakeHttpClient.DoRawHttpRequestInt = errorCode
+
+					_, err := productPackageService.GetConfiguration(271)
+					Expect(err).To(HaveOccurred())
+				}
+			})
+
+			It("fails for error code 50x", func() {
+				errorCodes := []int{500, 501, 599}
+				for _, errorCode := range errorCodes {
+					fakeClient.FakeHttpClient.DoRawHttpRequestInt = errorCode
+
+					_, err := productPackageService.GetConfiguration(271)
+					Expect(err).To(HaveOccurred())
+				}
+			})
+		})
+	})
 })

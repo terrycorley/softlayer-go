@@ -38,3 +38,7 @@ func (fps *FakeProductPackageService) GetPackagesByType(packageType string) ([]d
 func (fps *FakeProductPackageService) GetOnePackageByType(packageType string) (datatypes.Softlayer_Product_Package, error) {
 	return datatypes.Softlayer_Product_Package{}, errors.New("Not supported")
 }
+
+func (fps *FakeProductPackageService) GetConfiguration(packageId int) ([]datatypes.SoftLayer_Product_Package_Order_Configuration, error) {
+	return []datatypes.SoftLayer_Product_Package_Order_Configuration{}, errors.New("Not supported")
+}
